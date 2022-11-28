@@ -1,0 +1,13 @@
+def MaxSquare(n):
+    q = 0
+    
+    while (n >= q*q):
+        q = q+1
+    q = q-1
+    
+    print (q)
+        
+MaxSquare(31)#resoult should be 5, 25<31<36
+MaxSquare(24)#resoult should be 4, 16<24<25
+MaxSquare(25)#resoult should be 5, 25=25<36
+MaxSquare(0)#resoult should be 0, 0=0<1
