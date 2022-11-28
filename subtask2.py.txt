@@ -24,3 +24,4 @@ def Sequence():
   print(m)
   print("and their mean: ")
   print(a)
+  #it looks like I learned how to use git today
